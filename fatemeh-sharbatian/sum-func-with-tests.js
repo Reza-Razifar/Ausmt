@@ -11,8 +11,34 @@ function sumNumbers() {
 }
 
 // Example usage:
-let result = sumNumbers();
-if (result !== undefined) {
-  console.log("Sum:", result);
+//let result = sumNumbers();
+//if (result !== undefined) {
+//  console.log("Sum:", result);
+//}
+
+
+// Unit test for sumNumbers function
+function testSumNumbers() {
+  // Test case 1: Valid input
+  let result = sumNumbers();
+  let expected = 0;
+  console.log("Test case 1 - Expected:", expected, "Actual:", result);
+  
+  // Test case 2: Invalid input (non-numeric)
+  let inputStub = {
+    prompt: function() {
+      return "abc";
+    }
+  };
+  let originalPrompt = window.prompt;
+  window.prompt = inputStub.prompt;
+  
+  result = sumNumbers();
+  expected = undefined;
+  console.log("Test case 2 - Expected:", expected, "Actual:", result);
+  
+  window.prompt = originalPrompt;
 }
 
+// Run the unit test
+//testSumNumbers();
