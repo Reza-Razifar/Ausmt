@@ -1,24 +1,39 @@
 # Unit test for app.py
 
-# Name : Maryam Shokri
-# ID : 981608130
-# Email : maryam12shokri2gmail.com
+# name :
+# student_number :
+# email :
 
-from app import sum, division
+from app import sum, minus, multiple, division
 
-# test  value of output 
+# test output value
 def test_output_sum():
-    check = sum(1, 4)
-    assert check == 5
-
-
-def test_output_division():
-    check = division(9, 3)
+    check = sum(1, 2)
     assert check == 3
 
-# test  type of output
+def test_output_minus():
+    check = minus(5, 2)
+    assert check == 3
+
+def test_output_multiple():
+    check = multiple(2, 2)
+    assert check == 4
+
+def test_output_division():
+    check = division(4, 2)
+    assert check == 2
+
+# test output type
 def test_type_sum():
     check = type(sum(1, 2))
+    assert check == type(0)
+
+def test_type_minus():
+    check = type(minus(1, 2))
+    assert check == type(0)
+
+def test_type_multiple():
+    check = type(multiple(1, 2))
     assert check == type(0)
 
 def test_type_division():

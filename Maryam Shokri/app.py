@@ -1,12 +1,17 @@
-# Project for Unit test
+# project for Unit test
 
-# Name : Maryam Shokri
-# ID : 981608130
-# Email : maryam12shokri@gmail.com
+# name :
+# student_number :
+# email :
 
 def sum(a, b) :
     return a + b
-    
+
+def minus(a, b) :
+    return a - b
+
+def multiple(a, b) :
+    return a * b
 
 def division(a, b) :
     return a / b
