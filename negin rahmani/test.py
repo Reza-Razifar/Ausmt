@@ -1,9 +1,6 @@
 num_str=input("input your number : ")
 num=int(num_str)
 def is_prime(num):
-    """
-    Returns 1 if the given number is prime, 0 otherwise.
-    """
     if num < 2:
         return 0
     
