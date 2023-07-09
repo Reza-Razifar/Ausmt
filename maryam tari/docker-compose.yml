@@ -1,0 +1,14 @@
+# docker-compose for main_981608115.py
+# name: maryam tari
+# student number:981608115
+# email:maryamtari15@gmail.com
+
+version: '3'
+
+services:
+
+  ausmt:
+
+    build: .
+
+    container_name: maryam-tari
