@@ -1,37 +1,31 @@
-import unittest
-from main import is_prime
-
-
-class TestIsPrime(unittest.TestCase):
-    def test_isPrime(self):
-        self.assertEqual(is_prime(2), True)
-        self.assertEqual(is_prime(3), True)
-        self.assertEqual(is_prime(4), False)
-        self.assertEqual(is_prime(5), True)
-        self.assertEqual(is_prime(6), False)
-        self.assertEqual(is_prime(7), True)
-        self.assertEqual(is_prime(8), False)
-        self.assertEqual(is_prime(9), False)
-        self.assertEqual(is_prime(10), False)
-        self.assertEqual(is_prime(11), True)
-        self.assertEqual(is_prime(12), False)
-        self.assertEqual(is_prime(13), True)
-        self.assertEqual(is_prime(14), False)
-        self.assertEqual(is_prime(15), False)
-        self.assertEqual(is_prime(16), False)
-        self.assertEqual(is_prime(17), True)
-        self.assertEqual(is_prime(18), False)
-        self.assertEqual(is_prime(19), True)
-        self.assertEqual(is_prime(20), False)
-        self.assertEqual(is_prime(21), False)
-        self.assertEqual(is_prime(22), False)
-        self.assertEqual(is_prime(23), True)
-        self.assertEqual(is_prime(24), False)
-        self.assertEqual(is_prime(25), False)
-        self.assertEqual(is_prime(26), False)
-        self.assertEqual(is_prime(27), False)
-        self.assertEqual(is_prime(28), False)
-
-
-if __name__ == '__main__':
-    unittest.main()
+from main_981608119 import is_prime as isPrime
+def test_isPrime():
+        assert isPrime(2) == True
+        assert isPrime(3) == True
+        assert isPrime(4) == False
+        assert isPrime(5) == True
+        assert isPrime(6) == False
+        assert isPrime(7) == True
+        assert isPrime(8) == False
+        assert isPrime(9) == False
+        assert isPrime(10) == False
+        assert isPrime(11) == True
+        assert isPrime(12) == False
+        assert isPrime(13) == True
+        assert isPrime(14) == False
+        assert isPrime(15) == False
+        assert isPrime(16) == False
+        assert isPrime(17) == True
+        assert isPrime(18) == False
+        assert isPrime(19) == True
+        assert isPrime(20) == False
+        assert isPrime(21) == False
+        assert isPrime(22) == False
+        assert isPrime(23) == True
+        assert isPrime(24) == False
+        assert isPrime(25) == False
+        assert isPrime(26) == False
+        assert isPrime(27) == False
+        assert isPrime(28) == False
+        assert isPrime(29) == True
+        assert isPrime(30) == False
