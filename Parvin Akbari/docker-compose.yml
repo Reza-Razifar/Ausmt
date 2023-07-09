@@ -1,0 +1,14 @@
+# docker-compose for main_991608106.py
+# Name:Parvin Akbari
+# Student Number:991608106
+# Email:radparinaz903@gmail.com
+
+version: '3'
+
+services:
+
+  ausmt:
+
+    build: .
+
+    container_name: parvin-akbari
