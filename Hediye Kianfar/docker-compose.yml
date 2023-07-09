@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  unit_test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/user/src/unit_test
