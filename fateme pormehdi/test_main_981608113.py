@@ -1,10 +1,10 @@
-# Unit test for app.py
+# Unit test for main_981608113.py
 
 # name :fatemepormehdi
 # student_number :981608113
 # email :amirifateme573@gmail.com
 
-from app import sum, minus
+from main_981608113 import sum, minus
 
 # test output value
 def test_output_sum():
