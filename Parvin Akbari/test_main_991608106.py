@@ -4,7 +4,7 @@
 # Student Number : 991608106
 # Email : radparinaz903@gmail.com
 
-from app import sum, minus, multiple, division
+from main_991608106 import sum, minus, multiple, division
 
 # test output value
 def test_output_sum():
