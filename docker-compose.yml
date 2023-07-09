@@ -1,6 +1,5 @@
 version: "3"
-
 services:
-    ausmt:
-       build: .
-          container_name: ausmt-devops
+      ausmt:
+          build: .
+          container_name: ausmt_devops
