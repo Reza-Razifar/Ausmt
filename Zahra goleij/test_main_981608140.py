@@ -4,7 +4,7 @@
 # student_number :981608140
 # email :zahragoleij0@gmail.com
 
-from app import sum, multiple
+from main_981608140 import sum, multiple
 
 # test output value
 def test_output_sum():
