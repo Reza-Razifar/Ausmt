@@ -1,10 +1,10 @@
-# Unit test for app.py
+# Unit test for main_981608115.py
 
 # name : maryam tari
 # student_number :981608115
 # email :maryamtari15@gmail.com
 
-from app import sum, minus, multiple, division
+from main_981608115 import sum, minus, multiple, division
 
 # test output value
 def test_output_sum():
