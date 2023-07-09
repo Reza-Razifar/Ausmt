@@ -4,7 +4,7 @@
 # ID :981608130
 # Email :maryam12shokri@gmail.com
 
-from app import sum, division
+from main_981608130 import sum, division
 
 # test value of output
 def test_output_sum():
