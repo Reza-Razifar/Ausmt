@@ -1,0 +1,4 @@
+services:
+  isprime:
+    build: .
+    container_name: isPrime-Pooria-Amini-devops
