@@ -1,0 +1,14 @@
+# docker-compose for main_981608140.py
+# name:Zahra Goleij
+# student number:981608140
+# email:zahragoleij0@gmail.com
+
+version: '3'
+
+services:
+
+  ausmt:
+
+    build: .
+
+    container_name: zahra-goleij
