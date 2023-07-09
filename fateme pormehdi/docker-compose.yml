@@ -1,0 +1,14 @@
+# docker-compose for main_981608113.py
+# name:fateme pormehdi
+# student number:981608113
+# email:amirifateme573@gmail.com
+
+version: '3'
+
+services:
+
+  ausmt:
+
+    build: .
+
+    container_name: fateme-pormehdi
