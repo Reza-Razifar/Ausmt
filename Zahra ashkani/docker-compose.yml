@@ -2,4 +2,4 @@ version: "3"
 services:
       ausmt:
           build: .
-          container_name: ausmt_devops
+          container_name: zahra_ashkani
