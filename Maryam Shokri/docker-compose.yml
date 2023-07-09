@@ -1,0 +1,14 @@
+# docker-compose for main_981608130.py
+# Name: Maryam Shokri
+# ID: 981608130
+# Email: maryam12shokri@gmail.com
+
+version: '3'
+
+services:
+
+  ausmt:
+
+    build: .
+
+    container_name: maryam-shokri
