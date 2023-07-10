@@ -1,0 +1,5 @@
+vertion: "3"
+services:
+ausmt:
+  build:
+  container_name: ausmt-devops

@@ -1,0 +1,7 @@
+FROM python:latest
+
+WORKDIR /app
+
+COPY test_main_981608121.py /app
+
+CMD  ["python", "test_main_981608121.py"]
